@@ -1,0 +1,226 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #1e810a;
+  color: #0f172a;
+}
+
+header, footer {
+  background-color: #0b3d2e;
+  color: #c86f71;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Dark theme styles */
+.dark-theme {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.dark-theme header, 
+.dark-theme footer {
+  background-color: #1e293b;
+  color: #f87171;
+}
+
+main {
+  background: #9bac65;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dark-theme main {
+  background: #334155;
+  color: #e2e8f0;
+}
+
+h1, h2, h3 {
+  color: #14532d;
+}
+
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3 {
+  color: #4ade80;
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #28ad35;
+}
+
+.dark-theme table, 
+.dark-theme th, 
+.dark-theme td {
+  border-color: #4ade80;
+}
+
+th {
+  background-color: #788a81;
+}
+
+.dark-theme th {
+  background-color: #475569;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+img, video, audio {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+form {
+  background: #069f7b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.dark-theme form {
+  background: #0f766e;
+}
+
+fieldset {
+  border: 1px solid #266447;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.dark-theme fieldset {
+  border-color: #14b8a6;
+}
+
+legend {
+  font-weight: bold;
+  color: #064e3b;
+}
+
+.dark-theme legend {
+  color: #2dd4bf;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.dark-theme input, 
+.dark-theme select, 
+.dark-theme textarea {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-color: #64748b;
+}
+
+.error-message {
+  color: #e53e3e;
+  font-size: 0.8em;
+  display: block;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #059669;
+  color: rgb(53, 165, 19);
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark-theme button {
+  background-color: #0d9488;
+  color: #d1fae5;
+}
+
+button:hover {
+  background-color: #047857;
+}
+
+.dark-theme button:hover {
+  background-color: #115e59;
+}
+
+#theme-toggle {
+  margin-top: 15px;
+  background-color: #c86f71;
+  color: white;
+}
+
+#progress-tracker {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #788a81;
+  border-radius: 8px;
+}
+
+.dark-theme #progress-tracker {
+  background-color: #475569;
+}
+
+#new-task {
+  width: 70%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#add-task {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.task-item {
+  background-color: #5a6b62;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-theme .task-item {
+  background-color: #334155;
+}
+
+.delete-task {
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-task:hover {
+  background-color: #c53030;
+}
